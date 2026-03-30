@@ -121,12 +121,7 @@ export default function AdminUsersPage() {
             </form>
           </div>
 
-          <div className="card p-6">
-            <h2 className="text-xl font-semibold text-ink">Netlify env required</h2>
-            <div className="mt-4 rounded-[24px] bg-slate-50 p-4 text-sm text-slate-600">
-              Add <strong>SUPABASE_SERVICE_ROLE_KEY</strong> and <strong>VITE_SUPABASE_URL</strong> in Netlify so the server functions can create and list Auth users securely.
-            </div>
-          </div>
+          
         </div>
 
         <div className="card p-6">
